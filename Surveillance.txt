@@ -1,0 +1,28 @@
+## COVID19 denominator surveillance
+
+The Nightingale hospital is a single organ support facility that specifically provides invasive mechanical ventilation to stable patients with COVID19 pneumonia. It is assumed that the acute hospitals in London will be limited in their ability to deliver this care as the pandemic surges and persists. 
+Transferring these patients to Nightingale will allow the acute hospitals to continue to provide three other key services:
+
+- non-invasive respiratory support (including simple oxygen therapy, and CPAP) for patients with COVID19
+- more advanced multi-organ support (cardiovascular support, renal replacement therapy etc.) for patients with COVID19
+- emergency and urgent care for patients without COVID19 (e.g. trauma, cancer, and other medical and surgical emergencies)
+
+Demonstrating the success of Nightingale, and directing the Nightingale resource to the right hospitals depends on monitoring these non-Nightingale outcomes. The monitoring should be in realtime so that the clinical leadership teams can prioritise transfers from those hospitals most acutely affected, and adapt the clinical model where necessary to provide the best outcomes for all patients across London.
+
+### Proposal
+
+We build a simple ‘boots on the ground’ direct monitoring system across all hospitals served by Nightingale. The direct data collection must be lean and real time so that it can be used operationally. For these reasons, simple low-tech data collection by a centrally coordinated team is recommended.
+
+1. Build a light weight data entry tool using REDCAP, an established and certified data collection platform (estimated work time 2 working days)
+2. Employ and train a cohort of medical students who will be deployed to work in the A&E departments of referring hospitals (estimate 7 person rotas for each hospital to provide 24/7 coverage, 2 days recruitment, 1 day central administration, 1 day referring hospital administration, 1 day training).
+3. Provide each student with a tablet or similar for direct data collection.
+4. Use the existing DeCOVID (COVID19 realtime UK electronic health record data collection programme) HRA approval and data model to coordinate and manage the data collection process
+5. Enrich the data where possible by linkage to established Electronic Health Record Systems (e.g. UCLH, Kings etc. who are also founding partners of DeCOVID).
+
+The data collection ‘model’ is summarised in the figure below, and the data collection form in the attached [spreadsheet](https://docs.google.com/spreadsheets/d/1PWF6cwS5ySwgeIY8jk8x_UvZ5W_pVY1tG5afPlc-eAc).
+
+
+
+
+
+

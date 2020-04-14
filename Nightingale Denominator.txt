@@ -1,0 +1,8 @@
+Nightingale Denominator
+
+
+NHS England will be the data controller, and the data captured is justified on the grounds of ‘public task’ under Article 6(1)e of GDPR. Nightingale will be the data processor and manage the collection, processing and reporting of data.
+
+Nightingale liaison officers will be provided with tablet devices that connect to a REDCAP instance running on a secure server hosted by AIMES. The device itself will be password protected, and not store any data, and instead connect securely to a database hosted in the AIMES environment. This environment is ISO 27001 certified and uses NHS Digital approved methods including appropriate authentication and audit technology. REDCAP itself is a HIPAA compliant “secure web application ... for online surveys and databases” specifically adapted for health care scenarios.  
+
+Direct identifiers will be captured to permit linkage. Those direct identifiers will be separated and encrypted from the remaining pseudonymised data. Indirect identifiers (e.g. date of birth) will be coarsened to preserve anonymity. Separate permissions will be sought before transfer to the DECOVID infrastructure.

@@ -1,0 +1,54 @@
+2020-04-10
+email follow-up for nightingale denominator
+
+Dear All
+
+Thanks for you time yesterday. I am attaching a Zoom invite for today's meeting at 2pm. If this is not a good time then let me know and I will re-arrange.
+
+Steve
+
+
+
+Current issues
+
+### Duplication of effort
+
+I note the similarities between the work proposed and CHESS (COVID-19 Hospitalisations in England Surveillance System) from PHE. This collects individual level patient data for COVID positive ICU admissions and aggregate information for elsewhere. It similarly uses a secure online web tool for direct data entry, and retains individual patient identifiers.
+
+- numerator only data: unable to evaluate how Nightingale improves access to ICU for COVID disease; and access to ICU for non-COVID disease
+- no time-series (daily) data so unable to evaluate bed pressure and flow
+- letter from PHE to medical directors (7 Apr) asking them to use medical students to help with data collection so reasonable to assume data is neither complete, nor timely with current arrangements
+
+### Information governance
+
+Straw man proposal:
+
+> NHS England will be the data controller, and the data captured is justified on the grounds of ‘public task’ under Article 6(1)e of GDPR. Nightingale will be the data processor and manage the collection, processing and reporting of data.
+> Nightingale liaison officers will be provided with tablet devices that connect to a REDCAP instance running on a secure server hosted by AIMES. The device itself will be password protected, and not store any data, and instead connect securely to a database hosted in the AIMES environment. This environment is ISO 27001 certified and uses NHS Digital approved methods including appropriate authentication and audit technology. REDCAP itself is a HIPAA compliant “secure web application ... for online surveys and databases” specifically adapted for health care scenarios.  
+> Direct identifiers will be captured to permit linkage. Those direct identifiers will be separated and encrypted from the remaining pseudonymised data. Indirect identifiers (e.g. date of birth) will be coarsened to preserve anonymity. Separate permissions will be sought before transfer to the DECOVID infrastructure.
+
+
+Notes
+
+- I have very limited IG expertise so this needs review
+- I don't work for NHSE/PHE so this needs someone from those organisations to agree this is within their remit or something they want to do
+- Alternatives
+	- avoid direct identifiers: this will harm data quality (follow-up becomes impossible, duplication etc will be unavoidable) and prevents linkage to DeCOVID
+	- data sharing agreements with each individual trust and data capture through the HSCN network. Possible but creates more external dependencies
+
+
+### Local pilot
+
+We propose running a local pilot of this at UCLH. Kevin has already an agreement in principle here, and we have identified medical students who can work alongside military liaison officers. The pilot would *not* use any of the electronic data flows specifically to test the feasibility of data collection by hand. 
+
+### Coordination and management
+
+This needs a project manager role based either at Nightingale under James Mountford and James Moon, and if the information governance is being done centrally via NHSE then a named person there too. This person(s) should then be guided by this group.
+
+### Human resources and safety
+
+Kevin has established the skeleton of a pathway for bringing staff (military) in, managing clinical risk to the staff, and confirming identity and arrangements with the local host site (e.g. ID badges etc.). We need to fall in behind this or find something similar.
+
+
+
+
